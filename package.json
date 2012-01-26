@@ -1,12 +1,12 @@
 {
     "name": "yammer",
     "description": "Simple Yammer API client using OAuth 2",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
     "keywords": ["yammer"],
     "main" : "lib/yammer_client.js",
     "directories" : { "lib" : "./lib" },
-    "dependencies": { "request": ">= 2.2.0" },
+    "dependencies": { "request": ">=2.1.1" },
     "repository" : {"type": "git" , "url": "http://github.com/smurthas/yammer-js.git" },
     "engines": { "node": ">=0.2.0 <0.7.0" }
 }
